@@ -49,5 +49,5 @@ var romanToInt = function (s) {
 };
 
 rl.question("Enter the roman numeral you want to convert - ", (romanNumber) => {
-  console.log(romanToInt(Number(romanNumber)));
+  console.log(romanToInt(romanNumber));
 });
